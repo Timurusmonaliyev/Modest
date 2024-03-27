@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./Assets//Images/bg-pattern.png");
+  height: auto;
+  width: 100%;
+  background-color: #c8cdd2;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.swiper-button-prev {
+  display: none !important;
+}
+.swiper-button-next {
+  display: none !important;
+}
+.backgroundimage {
+  background-image: url("./Assets//Images/s.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backgroundimage2 {
+  background-image: url("./Assets//Images/header-bg-light-blue.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backgroundimage3 {
+  background-image: url("./Assets//Images/header-bg-blue.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backgroundimage4 {
+  background-image: url("./Assets//Images/header-bg-red.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backgroundimage5 {
+  background-image: url("./Assets//Images/header-bg-gray.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bgimg {
+  background-image: linear-gradient(to bottom, #549eae, #83cede);
+}
+.bgimg2 {
+  background-image: linear-gradient(to bottom, #3a5f9a, #688dc8);
+}
+.bgimg3 {
+  background-image: linear-gradient(to bottom, #c65151, #e77272);
+}
+.divimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+.imgdiv:hover img {
+  opacity: 0.3;
+}
+.imgdiv:hover .divimg {
+  opacity: 1;
+  color: white;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 28px;
+  height: 4px;
+  border-radius: 0%;
+  background-color: white;
+}
+.navbar-color {
+  position: fixed;
+  /* margin-top: 10px !important; */
+  top: 0;
+  width: 80%;
+  background-color: white;
+  z-index: 9999 !important;
+  box-shadow: 0 0 0.3rem 0.1rem rgb(215, 200, 200) !important;
+}
+@media screen and (max-width:769px){
+  .navbar-color{
+    width: 90% !important;
+  }
+}
+@media screen and (max-width:426px){
+  .navbar-color{
+    width: 9% !important;
+  }
+}
+@media screen and (max-width:1025px){
+  .navbar-color{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width:376px){
+  .navbar-color{
+    width: 92% !important;
+  }
+}

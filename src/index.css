@@ -13,8 +13,12 @@ body {
   height: auto;
   width: 100%;
   background-color: #c8cdd2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
+* {
+  scroll-behavior: smooth;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -89,23 +93,23 @@ code {
   z-index: 9999 !important;
   box-shadow: 0 0 0.3rem 0.1rem rgb(215, 200, 200) !important;
 }
-@media screen and (max-width:769px){
-  .navbar-color{
+@media screen and (max-width: 769px) {
+  .navbar-color {
     width: 90% !important;
   }
 }
-@media screen and (max-width:426px){
-  .navbar-color{
+@media screen and (max-width: 426px) {
+  .navbar-color {
     width: 9% !important;
   }
 }
-@media screen and (max-width:1025px){
-  .navbar-color{
+@media screen and (max-width: 1025px) {
+  .navbar-color {
     width: 100% !important;
   }
 }
-@media screen and (max-width:376px){
-  .navbar-color{
+@media screen and (max-width: 376px) {
+  .navbar-color {
     width: 92% !important;
   }
 }
